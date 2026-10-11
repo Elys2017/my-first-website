@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b12">
+  <meta name="description" content="Персональный сайт: немного обо мне, мои проекты и новые идеи.">
+  <title>Мой мир — персональный сайт</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="На главную"><span class="logo-mark">m<span>·</span></span> мой мир</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Открыть меню"><span></span><span></span></button>
+    <nav id="navigation" aria-label="Главная навигация">
+      <a href="#about">Обо мне</a><a href="#projects">Проекты</a><a class="nav-contact" href="#contact">Давайте знакомиться <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> ОТКРЫТ НОВЫМ ИДЕЯМ</p>
+        <h1>Привет.<br>Это мой <span class="gradient-text">мир.</span></h1>
+        <p class="hero-description">Из любопытства рождаются идеи.<br>Из идей — что-то настоящее. Я здесь, чтобы создавать.</p>
+        <a class="button button-primary" href="#projects">Посмотреть проекты <span aria-hidden="true">↗</span></a>
+        <div class="hero-caption"><span class="small-line"></span> МАЛЕНЬКИЙ ШАГ. БОЛЬШОЕ НАЧАЛО.</div>
+      </div>
+      <div class="orb-scene" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orb"></div>
+        <span class="star star-one">✦</span><span class="star star-two">✦</span>
+        <div class="float-label label-one"><span>✧</span> Идея → реальность</div>
+        <div class="float-label label-two"><span class="status-dot"></span> В процессе создания</div>
+        <span class="orb-coordinate">55° DREAMING / 100% CURIOUS</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span>ЛИСТАЙТЕ, ТУТ ЕЩЁ ЕСТЬ</span><span aria-hidden="true">↓</span></a>
+      <span class="hero-index" aria-hidden="true">01 — 04</span>
+    </section>
+    <section class="section about" id="about">
+      <div class="section-label reveal"><span>01 / ОБО МНЕ</span><span class="section-line"></span></div>
+      <div class="about-grid">
+        <div class="reveal"><h2>Всегда любопытно.<br><span class="muted">Всегда вперёд.</span></h2></div>
+        <div class="about-copy reveal"><p>Я только начинаю свой путь в создании цифровых проектов. Мне нравится пробовать новое, разбираться в технологиях и превращать «а что, если» в «смотрите, получилось».</p><p class="muted">Этот сайт — мой первый шаг. Здесь будут появляться мои эксперименты, маленькие открытия и проекты, которыми хочется поделиться.</p><div class="tags"><span>✧ Любопытство</span><span>↗ Развитие</span><span>⌘ Технологии</span></div></div>
+      </div>
+      <div class="principles reveal"><div><span class="principle-number">01</span><h3>Пробовать</h3><p>Новые инструменты. Новые возможности.</p></div><div><span class="principle-number">02</span><h3>Создавать</h3><p>От первой идеи до работающего проекта.</p></div><div><span class="principle-number">03</span><h3>Делиться</h3><p>Находками, опытом и вдохновением.</p></div></div>
+    </section>
+    <section class="section projects" id="projects">
+      <div class="section-label reveal"><span>02 / МОИ ПРОЕКТЫ</span><span class="section-line"></span></div>
+      <div class="section-heading reveal"><h2>Идеи обретают <span class="muted">форму.</span></h2><p>Начало коллекции. Дальше — больше.</p></div>
+      <div class="project-grid">
+        <a class="project-card reveal" href="#home" aria-label="Мой первый сайт — вернуться на главный экран"><div class="project-art art-website" aria-hidden="true"><div class="mini-window"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-body"><span class="mini-tag">HELLO, WORLD</span><strong>Начало<br>чего-то нового<span>·</span></strong><span class="mini-button"></span><div class="mini-orb"></div></div></div><span class="art-number">001</span></div><div class="project-info"><div class="project-meta"><span>ВЕБ-ДИЗАЙН / РАЗРАБОТКА</span><span class="live-badge">Готов</span></div><h3>Мой первый сайт <span aria-hidden="true">↗</span></h3><p>Личное пространство в интернете. Сделано с любопытством и помощью ИИ.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></a>
+        <article class="project-card reveal"><div class="project-art art-lab" aria-hidden="true"><div class="lab-grid"></div><div class="lab-icon">✳</div><span class="lab-caption">SPACE FOR THE NEXT IDEA</span><span class="art-number">002</span></div><div class="project-info"><div class="project-meta"><span>ЭКСПЕРИМЕНТЫ / ИДЕИ</span><span class="soon-badge">В планах</span></div><h3>Следующий эксперимент</h3><p>Пока чистый лист. Место для новой идеи, неожиданного открытия и следующего шага.</p><div class="project-tech"><span>Скоро здесь</span></div></div></article>
+      </div>
+    </section>
+    <section class="section contact" id="contact">
+      <div class="section-label reveal"><span>03 / КОНТАКТЫ</span><span class="section-line"></span></div>
+      <div class="contact-panel reveal"><div class="contact-glow" aria-hidden="true"></div><p class="eyebrow">ХОРОШИЕ ВЕЩИ НАЧИНАЮТСЯ С ПРИВЕТА</p><h2>Есть идея?<br><span class="gradient-text">Давайте создадим.</span></h2><p class="contact-description">Всегда рад новым знакомствам, интересным проектам<br>и разговорам о том, что можно сделать вместе.</p><a class="button button-primary" href="https://github.com/Elys2017" target="_blank" rel="noopener noreferrer">Связаться на GitHub <span aria-hidden="true">↗</span></a><p class="contact-note">Мои проекты и профиль — на GitHub</p></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="logo" href="#home"><span class="logo-mark">m<span>·</span></span> мой мир</a><p>© <span id="year">2026</span> · Сделано с любопытством</p><a href="#home">Наверх ↑</a></footer>
+</body>
+</html>
